@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painhub.cry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">Painhub.cry</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#video">Videos</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1 class="main-title">Welcome to the endless pain addiction</h1>
+            <p class="subtitle">Here you will find favorite and rarest items from author's own collection</p>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <h2>archive</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/erd-jacket.jpg" alt="Enfants Riches Deprimes Vladimir Putin Denim Jacket">
+                    <div class="caption">
+                        <h3>Enfants Riches Déprimés</h3>
+                        <p>Insanely high quality denim, new without tags jacket that exemplifies ERD. Features a print of President George W. Bush's haunting portrait of Vladimir Putin.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/ccp-jacket.jpg" alt="Carol Christian Poell Leather Jacket">
+                    <div class="caption">
+                        <h3>CAROL CHRISTIAN POELL</h3>
+                        <p>The garment undergoes an object dyeing process, enriching its texture with a unique depth of colour that highlights the natural beauty of horse leather.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/newrock-boots.jpg" alt="New Rock Ankle Boots">
+                    <div class="caption">
+                        <h3>ANKLE BOOT BLACK TOWER WITH LACES M-106-S70</h3>
+                        <p>The entire shoe is made of genuine leather of the highest quality. The platform is full of studs and metal details.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="video" class="video-section">
+            <h2>fashion videos</h2>
+            <p>Here you can see author's fav videoclips</p>
+            <div class="video-container">
+                <video controls>
+                    <source src="videos/fashion-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Connect</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Theme:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Choose theme</option>
+                        <option value="general">General question</option>
+                        <option value="support">Technical support</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sultan Babayev Entertainment. All Rights Reserved.</p>
+        <p>
+            <a href="#home" style="color: white; margin: 0 1rem;">Home</a>
+            <a href="#gallery" style="color: white; margin: 0 1rem;">Gallery</a>
+            <a href="#video" style="color: white; margin: 0 1rem;">Videos</a>
+            <a href="#contact" style="color: white; margin: 0 1rem;">Contacts</a>
+        </p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
